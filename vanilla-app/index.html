@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aplicação simples para usar API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+</head>
+<body class="container">
+    <div class="columns">
+        <div class="column is-6">
+            <section class="hero is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">
+                            API C#
+                        </h1>
+                    </div>
+                </div>
+            </section>
+            <div class="content">
+                <h1>Busca de dados</h1>
+                <!-- ! Para fazer a busca de dados C# -->
+                <button id="btnBuscarCSharp" class="button is-info">Buscar Dados</button>
+                <p id="nomesCSharp"></p>
+            </div>
+            
+            <div>
+                <h1>Adicionar nome</h1>
+                <!-- !para fazer a inclusão de um nome via C# -->
+                <input type="text" id="inputNomeCSharp" class="input" placeholder="digite um nome">
+                <button id="btnNovoNomeCSharp" class="button is-info">Adicionar Nome</button>
+            </div>
+            
+            
+        </div>
+        <div class="column is-6">
+            <section class="hero is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">
+                            API NEST (NODE)
+                        </h1>
+                    </div>
+                </div>
+            </section>
+            <div class="content">
+                <h1>Busca de dados</h1>
+                <!-- ! Para fazer a busca de dados NEST -->
+                <button id="btnBuscarNest" class="button is-info">Buscar Dados</button>
+                <p id="nomesNest"></p>
+            </div>
+            
+            <div>
+                <h1>Adicionar nome</h1>
+                <!-- !para fazer a inclusão de um nome via NEST -->
+                <input type="text" id="inputNomeNest" class="input" placeholder="digite um nome">
+                <button id="btnNovoNomeNest" class="button is-info">Adicionar Nome</button>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+</div>
+    
+</body>
+<script src="index.js"></script>
+</html>
